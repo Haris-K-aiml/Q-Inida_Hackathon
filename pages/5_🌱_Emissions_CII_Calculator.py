@@ -16,6 +16,8 @@ st.set_page_config(
     page_icon="🌱",
     layout="wide"
 )
+from theme import apply_theme
+apply_theme()
 
 st.title("🌱 Emissions & IMO CII Rating Calculator")
 st.caption(

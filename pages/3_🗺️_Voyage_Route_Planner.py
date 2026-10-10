@@ -19,6 +19,8 @@ st.set_page_config(
     page_icon="🗺️",
     layout="wide"
 )
+from theme import apply_theme
+apply_theme()
 
 st.title("🗺️ Maritime Voyage & Environmental Route Planner")
 st.caption(

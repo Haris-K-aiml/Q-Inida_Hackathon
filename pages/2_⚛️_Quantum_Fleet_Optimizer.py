@@ -16,6 +16,8 @@ st.set_page_config(
     page_icon="⚛️",
     layout="wide"
 )
+from theme import apply_theme
+apply_theme()
 
 st.title("⚛️ Quantum-Inspired Green Fleet Optimizer")
 st.caption(
@@ -134,9 +136,10 @@ if st.button("🚀 Run Quantum-Inspired Fleet Optimization", type="primary", use
             "route_name": "Selected Route",
             "distance_km": "Distance (km)",
             "fuel_tonnes": "Est. Fuel (t)",
-            "co2_tonnes": "Est. CO2 (t)"
+            "co2_tonnes": "Est. CO2 (t)",
+
         }),
-        use_container_width=True
+        width="stretch",
     )
 
     if quantum_res["valid_plan"]:

@@ -15,6 +15,8 @@ st.set_page_config(
     page_icon="📡",
     layout="wide"
 )
+from theme import apply_theme
+apply_theme()
 
 st.title("📡 Vessel AIS Registry & Live Telemetry Stream")
 st.caption(

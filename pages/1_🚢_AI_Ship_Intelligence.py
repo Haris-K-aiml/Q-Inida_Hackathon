@@ -25,6 +25,8 @@ st.set_page_config(
     page_icon="🚢",
     layout="wide"
 )
+from theme import apply_theme
+apply_theme()
 
 # Custom Styling for Maritime UI
 st.markdown("""
