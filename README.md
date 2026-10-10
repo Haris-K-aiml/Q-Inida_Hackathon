@@ -1,3 +1,5 @@
+🚀 Live Prototype
+Try the live application here:https://q-inidahackathon-lyrp5p4cijnhzrplgpmuwn.streamlit.app/
 # 🌊 QuantumGreen Fleet AI
 
 **AI Ship Intelligence, Multi-Vessel Fleet Optimization, and Maritime Decarbonization Platform**
